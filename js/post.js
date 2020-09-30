@@ -45,6 +45,7 @@ const buildPost = (data) => {
         ${postDate}
         </div>
         <div id="individual-post-content">
+        
         ${data.content}
         </div>
     `;
