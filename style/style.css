@@ -3,21 +3,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.post-link {
+a.post-link {
   text-decoration: none;
 }
 header {
   min-height: 350px;
-  background-color: blue;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/assets/banner.jpeg);
+
   background-size: cover;
   background-position: center;
   position: relative;
+}
+.home header {
+  background-image: url(/assets/banner.jpeg);
+}
+.post__link {
+  text-decoration: none;
 }
 header > * {
   z-index: 1;
